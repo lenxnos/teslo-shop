@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import { IProduct } from "../../interfaces";
-import { ProductCart } from "./ProductCart";
+import { ProductCart } from "./ProductCard";
 
 
 interface Props {
