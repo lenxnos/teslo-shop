@@ -12,7 +12,7 @@ export function ProductList({ products }: Props) {
     <Grid container spacing={4}>
       {products.map((product) => (
         <ProductCart
-          key={product._id}
+          key={product.slug}
           product={product}
         />
       ))}

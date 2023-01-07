@@ -4,8 +4,6 @@ import { ProductList } from '../components/products';
 import { initialData } from '../database/products';
 import { IProduct } from '../interfaces';
 
-initialData
-
 export default function Home() {
   return (
     <>
