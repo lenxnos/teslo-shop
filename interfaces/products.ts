@@ -13,4 +13,6 @@ export interface IProduct {
   title: string;
   type: IType;
   gender: 'men'|'women'|'kid'|'unisex';
+  createdAt: string;
+  updatedAt: string;
 }
