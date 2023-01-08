@@ -3,14 +3,13 @@ import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 import { ShopLayout } from '../../components/layouts';
 import NextLink from 'next/link';
 
-
 const rows = [
-  { id: 1, paid: true, fullname: 'Nelson Soto', url: '/' },
-  { id: 2, paid: false, fullname: 'Eduardo Marcano', url: '/' },
-  { id: 3, paid: true, fullname: 'Karolina Smith', url: '/' },
-  { id: 4, false: true, fullname: 'John Peterson', url: '/' },
-  { id: 5, paid: true, fullname: 'Laura Martinez', url: '/' },
-  { id: 6, paid: true, fullname: 'Vivian Morales', url: '/' },
+  { id: 1, paid: true, fullname: 'Nelson Soto' },
+  { id: 2, paid: false, fullname: 'Eduardo Marcano' },
+  { id: 3, paid: true, fullname: 'Karolina Smith' },
+  { id: 4, false: true, fullname: 'John Peterson' },
+  { id: 5, paid: true, fullname: 'Laura Martinez' },
+  { id: 6, paid: true, fullname: 'Vivian Morales' },
 ]
  
 
